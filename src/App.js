@@ -10,7 +10,7 @@ function App() {
         <h1>React Test Project</h1>
         <nav>
           <Link to="/" style={{ marginRight: 10 }}>Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/about">About us</Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
